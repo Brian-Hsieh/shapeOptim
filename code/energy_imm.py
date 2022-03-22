@@ -22,7 +22,7 @@ parser.add_argument("-re", "--Reynolds", type = int, choices = [40, 100,190], re
 parser.add_argument("-n", "--name", type = int, required = True, help = "set file name (simulation number)")
 parser.add_argument("--adam", action = 'store_true', help = "activate adam optimizer if specified")
 parser.add_argument("-iter", "--iteration", type = int, default = 4000, help = "set max iteration")
-parser.add_argument("-interv", "--interval", type = int, choices = range(1,501), default = 100, help = "set interval for saving intermediate results")
+parser.add_argument("-interv", "--interval", type = int, choices = [1, 10, 50, 100, 200, 500], default = 100, help = "set interval for saving intermediate results")
 parser.add_argument("-res", "--resolution", type = int, default = 128, choices=[64,128,256,512], help = "set resolution")
 
 logging.getLogger('matplotlib').setLevel(logging.WARNING)

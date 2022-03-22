@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-re", "--Reynolds", type = int, choices = [100,190], required = True, help = "set Reynolds number for simulation")
 parser.add_argument("-n", "--name", type = int, required = True, help = "set file name (simulation number)")
 parser.add_argument("-iter", "--iteration", type = int, default = int(1e6), help = "set max iteration")
-parser.add_argument("-interv", "--interval", type = int, choices = range(1,501), default = 100, help = "set interval for saving intermediate results")
+parser.add_argument("-interv", "--interval", type = int, choices = [1, 10, 50, 100, 200, 500], default = 100, help = "set interval for saving intermediate results")
 parser.add_argument("-res", "--resolution", type = int, default = 128, choices=[64,128,256,512], help = "set resolution")
 
 logging.getLogger('matplotlib').setLevel(logging.WARNING)
