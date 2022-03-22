@@ -69,4 +69,4 @@ The result data will be stored in the `data/` directory with the name `simXXX` s
 
 ## Author
 
-[Brian Hsieh](www.linkedin.com/in/meng-ju-hsieh-83a188162)
+[Brian Hsieh](https://www.linkedin.com/in/meng-ju-hsieh-83a188162)
