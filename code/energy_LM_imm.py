@@ -156,7 +156,7 @@ def main():
     ################ create path and optimization info ################
 
     #data destination
-    path = '../unsteady_data/'
+    path = '../data/'
     dir_name = 'sim{:03d}'.format(sim_num)
 
     try:
