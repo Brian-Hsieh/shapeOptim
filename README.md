@@ -42,7 +42,7 @@ To install [phiflow](https://github.com/tum-pbs/PhiFlow) with source code, run
 pip install phiflow/
 ```
 
-To install all required packages other than [phiflow](https://github.com/tum-pbs/PhiFlow) and Pytorch, run
+To install all required packages other than [phiflow](https://github.com/tum-pbs/PhiFlow), run
 ```
 pip install -r requirements.txt
 ```
