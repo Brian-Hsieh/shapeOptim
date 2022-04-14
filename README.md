@@ -5,7 +5,7 @@ This serves as a code base for the paper *Shape optimization in confined flow*.
 ## Description
 
 Shape optimization is conducted using the differentiable physics toolkit [phiflow](https://github.com/tum-pbs/PhiFlow).
-Currently, only Reynolds number of 40, 100 and 190 are supported of which the pre-calculated data are stored in the `prestored_data/` directory. 
+Currently, only Reynolds number of 40, 100 and 190 are supported of which the pre-calculated data are stored in the `prestored_data/` directory. The prestored data is generated with the script `generate_data.py` in the `code/` directory.
 
 To deal with respective goals listed below, different **methods** are implemented.
 1. Update methods of the shape: **RK2, Adam**
